@@ -36,6 +36,19 @@ guardian-alert-fall-detection/
     └── fall_detection_analysis_final.ipynb # Notebook Eksperimen
 ```
 
+## 📥 Dataset
+
+This project uses the **SisFall Dataset**, an open-source fall detection dataset collected by the Universidad de Antioquia, Colombia.
+
+- **Download Link**: https://github.com/BIng2325/SisFall/releases
+- **Paper Reference**: Sucerquia, A., López, J. F., & Vargas-Bonilla, J. F. (2016). SisFall: A Fall and Normal Movement Dataset. *Sensors*, 17(1), 198. https://doi.org/10.3390/s17010198
+- **Contents**: 38 subjects (23 adults SA01-SA23, 15 elderly SE01-SE15), 19 ADL activities, 15 Fall activities, sampled at 200 Hz.
+
+After downloading, place the dataset files in the following directory:
+```
+data/SisFall_dataset/
+```
+
 ## 🚀 Cara Menjalankan Secara Lokal
 
 1. **Clone Repository**
@@ -61,4 +74,4 @@ guardian-alert-fall-detection/
 - **Threshold Rekomendasi**: 0.8 (untuk meminimalkan false alarm).
 
 ## 📚 Referensi
-- Sucerquia, A., López, J. F., & Vargas-Bonilla, J. F. (2016). *SisFall: An Open Source Fall and Activities Dataset*.
+- Sucerquia, A., López, J. F., & Vargas-Bonilla, J. F. (2016). SisFall: An Open Source Fall and Activities Dataset. *Sensors*, 17(1), 198. https://doi.org/10.3390/s17010198
