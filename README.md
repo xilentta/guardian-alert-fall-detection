@@ -62,8 +62,3 @@ guardian-alert-fall-detection/
 
 ## 📚 Referensi
 - Sucerquia, A., López, J. F., & Vargas-Bonilla, J. F. (2016). *SisFall: An Open Source Fall and Activities Dataset*.
-- Dicoding Indonesia - Capstone Project AI Mentorship.
-
----
-**Project Lead:** [Nama Anda]
-**Status:** Production Ready | Dicoding Capstone Project
