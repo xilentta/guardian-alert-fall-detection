@@ -470,8 +470,6 @@ elif page == "Documentation":
     
     st.subheader("Contact & Support")
     st.markdown("""
-    **Project Lead:** Manus AI
-    **Status:** Completed & Production Ready
     **Last Updated:** May 7, 2026
     
     For questions or support regarding this project, please refer to the technical documentation or contact the AI Engineering team.
