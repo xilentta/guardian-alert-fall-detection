@@ -190,7 +190,7 @@ if page == "Home":
     with col1:
         st.markdown("""
         <div class="metric-box">
-        <h3>📊 Dataset</h3>
+        <h3>Dataset</h3>
         <p><strong>38 Subjects</strong> (23 Adult, 15 Elderly)</p>
         <p><strong>153,705</strong> Data Windows</p>
         <p><strong>200 Hz</strong> Sampling Rate</p>
@@ -199,7 +199,7 @@ if page == "Home":
     with col2:
         st.markdown("""
         <div class="metric-box">
-        <h3>🧠 Model</h3>
+        <h3>Model</h3>
         <p><strong>LSTM</strong> (Long Short-Term Memory)</p>
         <p><strong>87%</strong> Overall Accuracy</p>
         <p><strong>200 Timesteps</strong> Input Window</p>
@@ -208,7 +208,7 @@ if page == "Home":
     with col3:
         st.markdown("""
         <div class="metric-box">
-        <h3>🎯 Performance</h3>
+        <h3>Performance</h3>
         <p><strong>93%</strong> ADL Recall</p>
         <p><strong>84%</strong> FALL Precision</p>
         <p><strong>0.8</strong> Recommended Threshold</p>
