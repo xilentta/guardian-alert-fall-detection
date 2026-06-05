@@ -84,6 +84,3 @@ data/SisFall_dataset/
 
 ## Referensi
 - Sucerquia, A., López, J. F., & Vargas-Bonilla, J. F. (2016). SisFall: An Open Source Fall and Activities Dataset. *Sensors*, 17(1), 198. https://doi.org/10.3390/s17010198
-
-
-readme apakah sudah ada
