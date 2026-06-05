@@ -605,27 +605,26 @@ elif page == "Documentation":
     st.markdown("---")
     st.subheader("Project Structure")
     st.code("""
-fall_detection_ds/
-├── data/
-│   ├── SisFall_dataset/
-│   ├── processed/
-│   │   ├── X_dl.npy              # (153705, 200, 6)
-│   │   └── y_dl.npy              # (153705,)
+.
+├── Data/
+│   ├── Processed/
+│   │   └── file_metadata.csv
 │   └── features/
+│       ├── eda_summary.json
+│       ├── feature_importance.csv
 │       └── features_extracted.csv
 ├── models/
 │   ├── fall_detection_lstm.h5
-│   ├── fall_detection_model.pkl
-│   └── scaler.pkl
-├── src/
-│   ├── data_pipeline_dl.py
-│   ├── train_dl_model.py
-│   ├── inference_pipeline_dl.py
-│   └── feature_extractor.py
+│   └── fall_detection_lstm.keras
 ├── notebooks/
-│   └── fall_detection_analysis_final.ipynb
+│   └── fall_detection_analysis.ipynb
+├── src/
+│   └── inference_pipeline_dl.py
+├── 06_streamlit_dashboard.py
+├── README.md
 ├── app.py
-└── README.md
+├── requirements.txt
+└── technical_report.pdf
     """, language="text")
 
     st.markdown("---")
@@ -660,7 +659,7 @@ fall_detection_ds/
     df_metrics = pd.DataFrame({
         'Metrik': ['Overall Accuracy', 'ADL Precision', 'ADL Recall', 'FALL Precision', 'FALL Recall', 'Macro Avg F1', 'Weighted Avg F1'],
         'Nilai': ['87%', '89%', '93%', '84%', '77%', '0.86', '0.87'],
-        'Interpretasi': ['Performa keseluruhan kuat', 'Deteksi ADL tinggi', 'Sangat sedikit false alarm', 'Alert fall dapat diandalkan', 'Ada ruang peningkatan', 'Performa seimbang', 'Performa tertimbang']
+        'Interpretasi': ['Performa keseluruhan kuat', 'Deteksi ADL tinggi', 'Sangkut sedikit false alarm', 'Alert fall dapat diandalkan', 'Ada ruang peningkatan', 'Performa seimbang', 'Performa tertimbang']
     })
     st.dataframe(df_metrics, use_container_width=True)
 
